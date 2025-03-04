@@ -1,0 +1,27 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+*.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore unnecessary directories
+Recreate/
+static/
+templates/
+# Ignore dependencies
+node_modules/
+dist/
+build/
+
